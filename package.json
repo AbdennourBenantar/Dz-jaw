@@ -9,6 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-forecast": "0.0.7",
+    "react-geolocated": "^3.0.1",
     "react-open-weather": "^0.6.2",
     "react-scripts": "3.4.1",
     "react-typical": "^0.1.3"

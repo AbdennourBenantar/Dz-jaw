@@ -9,7 +9,7 @@ class SplashScreen extends React.Component{
     }
     render(){
         return (
-        <div>
+        <div className="splash-background">
             <img src={require('../assets/logo.png')} className="logo" alt="Logo"/>
             <Typical className="welcome" steps={['Bienvenue sur',2000,'DzJaw ',2000]} wrapper="h1" loop={Infinity}/>
         </div>
