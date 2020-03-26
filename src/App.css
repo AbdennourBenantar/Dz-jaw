@@ -49,10 +49,11 @@
   font-size: 40px;
 }
 .weather-card{
-  opacity: 0.8;
-  margin:20px;
-  height: 100;
-  background-color: whitesmoke;
+  margin:7% auto;
+  padding-top: 2%;
+  height: 450px ;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 30px;
   color: whitesmoke;
 }
@@ -63,6 +64,24 @@
   position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
 }
-.homepage-bg{
-  
+h2{
+  padding-top: 2%;
+  text-align: center;
+  color: black;
+  font-size: 38px;
+  transition-duration: 1s;
+}
+h2:hover{
+  font-size: 48px;
+  transition-duration: 2s;
+}
+a{
+  text-decoration-line: none;
+  color: black;
+  opacity: 0.5;
+  transition-duration: 2s;
+}
+a:hover{
+  opacity: 1;
+  transition-duration: 1s;
 }
